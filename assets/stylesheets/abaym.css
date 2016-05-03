@@ -78,6 +78,9 @@ table {
   *zoom: 1;
 }
 /* page abay-master */
+body {
+	background-color: blue;
+}
 .left a {
 	font-size: 24px;
 	font-style: italic;
@@ -85,10 +88,27 @@ table {
 }
 header {
 	background: #ccffff;
-	height: 100;
-	border: 20px solid blue;
-	border-radius: 5px;
+	border: 5px solid blue;
+	border-radius: 30px;
 	padding: 10px;
+	color: green;
+	font-size: 150%;
+	font-style: inherit;
+	font-family: "times new roman";
+}
+header h1 {
+	font-style: italic;
+	font-weight: 900;
+	font-size: 300%;
+	color: orange;
+	line-height: 90px;
+	text-decoration: underline;
+	text-indent: 20px;
+	text-shadow: 5px 8px 5px green;
+}
+header p {
+	text-indent: 40px;
+	text-shadow: 5px 8px 5px green;
 }
 nav div {
 	font-weight: bold;
@@ -99,6 +119,7 @@ nav div {
 	border-radius: 10px;
 	padding: 10px;
 	line-height: 22px;
+	text-align: center;
 }
 section {
 	float:left;
@@ -107,7 +128,9 @@ section div {
 	background: #ff8fcc;
 	border: 1px solid #ff8fcc;
 	border-radius: 15px;
-	padding: 10px;
+	padding: 20px;
+	font-family: "arial";
+	line-height: 20px;
 }
 
 
@@ -121,8 +144,8 @@ footer {
 }
 footer div {
 	margin: 0 auto;
+	padding: 1%;
+	text-transform: uppercase;
+	letter-spacing: .2em;
 }
-#right {
-	background: yellow;
-	line-height: 40px;
-}
+
