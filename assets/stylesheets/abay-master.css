@@ -79,83 +79,12 @@ table {
 }
 /* page abay-master */
 body {
-	background-color: #3D64FF;
-}
-.left a {
-	font-size: 24px;
-	font-style: italic;
-	color: #00ff00;
-}
-header {
-	background: #ccffff;
-	background: -webkit-linear-gradient(#ccffff, #3D64FF);
-	background:    -moz-linear-gradient(#ccffff, #3D64FF);
-	background:         linear-gradient(#ccffff, #3D64FF);
-	border: 5px solid orange;
-	border-radius: 30px;
-	padding: 10px;
-	color: yellow;
-	font-size: 150%;
-	font-style: inherit;
-	font-family: "times new roman";
+	background: url(12.jpeg) no-repeat;
+  background-size: cover;
+
 }
 header h1 {
-	font-style: italic;
-	font-weight: 900;
-	font-size: 300%;
-	color: orange;
-	line-height: 90px;
-	text-decoration: underline;
-	text-indent: 20px;
-	text-shadow: 5px 8px 5px yellow;
+  color: blue;
+  font-family: "tahoma";
+  font-size: 300%;
 }
-header p {
-	text-indent: 40px;
-	text-shadow: 5px 8px 5px orange;
-}
-nav div {
-	font-weight: bold;
-	color: #dfe2a5;
-	display: inline-block;
-	background: #648880;
-	background: -webkit-linear-gradient(#648880, #293f50);
-	background:    -moz-linear-gradient(#648880, #293f50);
-	background:         linear-gradient(#648880, #293f50);
-	width: 19%;
-	height: 70px;
-	vertical-align: top;
-	border: 5px solid #dfe2a5;
-	border-radius: 10px;
-	padding: 10px;
-	line-height: 22px;
-	text-align: center;
-	cursor: pointer;
-}
-section {
-	float:left;
-}
-section div {
-	background: #ff8fcc;
-	border: 1px solid #ff8fcc;
-	border-radius: 15px;
-	padding: 20px;
-	font-family: "arial";
-	line-height: 20px;
-}
-
-
-
-footer {
-	background: #3D64FF;
-	margin: 0 auto;
-	clear: both;
-	font-style: courier;
-	font-weight: 100;
-}
-footer div {
-	margin: 0 auto;
-	padding: 1%;
-	text-transform: uppercase;
-	letter-spacing: .2em;
-}
-
