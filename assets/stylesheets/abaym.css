@@ -113,37 +113,52 @@ header p {
 	text-indent: 40px;
 	text-shadow: 5px 8px 5px orange;
 }
-nav div {
-	font-weight: bold;
-	color: #dfe2a5;
+nav ul {
+	font: bold 11px "Helvetica Neue", Helvetica, Arial, sans-serif;
+	text-transform: uppercase;
+	padding: 0;
+	padding-bottom: 3%;
+	margin: 0;
+}
+nav li {
 	display: inline-block;
-	background: #648880;
-	background: -webkit-linear-gradient(#648880, #293f50);
-	background:    -moz-linear-gradient(#648880, #293f50);
-	background:         linear-gradient(#648880, #293f50);
-	width: 19%;
-	height: 70px;
-	vertical-align: top;
-	border: 5px solid #dfe2a5;
-	border-radius: 10px;
-	padding: 10px;
-	line-height: 22px;
-	text-align: center;
-	cursor: pointer;
+	float: right;
+}
+nav a {
+	background: #ccffff;
+	background: -webkit-linear-gradient(#ccffff, #3D64FF);
+	background:    -moz-linear-gradient(#ccffff, #3D64FF);
+	background:         linear-gradient(#ccffff, #3D64FF);
+	border-right: 1px solid rgba(0, 0, 0, .3);
+	padding: 12px 20px;
+	text-decoration: none;
+	color: #fff;
+}
+nav a:hover {
+	background: #314b60;
+	box-shadow: inset 0 0 10px 1px rgba(0, 0, 0, .3);
+}
+nav li:first-child a {
+  border-radius: 0 4px 4px 0;
+}
+nav li:last-child a {
+  border-right: 0;
+  border-radius: 4px 0 0 4px;
 }
 section {
 	float:left;
 }
 section div {
-	background: #ff8fcc;
-	border: 1px solid #ff8fcc;
+	background: grey;
+	background: -webkit-linear-gradient(to right, #ccffff, #3D64FF);
+	background:    -moz-linear-gradient(to right, #ccffff, #3D64FF);
+	background:         linear-gradient(to right, #ccffff, #3D64FF);
+	border: 1px solid #3D64FF;
 	border-radius: 15px;
 	padding: 20px;
 	font-family: "arial";
 	line-height: 20px;
 }
-
-
 
 footer {
 	background: #3D64FF;
@@ -155,7 +170,6 @@ footer {
 footer div {
 	margin: 0 auto;
 	padding: 1%;
-	text-transform: uppercase;
 	letter-spacing: .2em;
 }
 
