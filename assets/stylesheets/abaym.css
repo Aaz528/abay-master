@@ -81,11 +81,7 @@ table {
 body {
 	background-color: #3D64FF;
 }
-.left a {
-	font-size: 24px;
-	font-style: italic;
-	color: #00ff00;
-}
+/* header and navigation bar */
 header {
 	background: #ccffff;
 	background: -webkit-linear-gradient(#ccffff, #3D64FF);
@@ -145,9 +141,9 @@ nav li:last-child a {
   border-right: 0;
   border-radius: 4px 0 0 4px;
 }
-section {
-	float:left;
-}
+
+/* middle content of the page */
+
 section div {
 	background: grey;
 	background: -webkit-linear-gradient(to right, #ccffff, #3D64FF);
@@ -156,9 +152,23 @@ section div {
 	border: 1px solid #3D64FF;
 	border-radius: 15px;
 	padding: 20px;
+}
+section div h1 {
+	font-size: 30px;
+	color: red;
+	line-height: 50px;
+	text-transform: uppercase;
+	text-align: center;
+}
+section div p {
 	font-family: "arial";
 	line-height: 20px;
+	font-size: 24px;
+	font-style: italic;
+	color: red;	
 }
+
+/* footer */
 
 footer {
 	background: #3D64FF;
